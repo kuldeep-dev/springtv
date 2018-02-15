@@ -1,0 +1,14 @@
+Host : your host name
+User : your user name
+
+cd /
+cd etc/nginx/conf.d
+sudo nano 00_elastic_beanstalk_proxy.conf
+client_max_body_size 5000M;
+sudo service nginx reload
+
+
+
+for file permissions
+
+sudo chmod -R 777 /var/app/current

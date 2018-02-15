@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SpringTV</title>
+  <meta name="description" content="The Corporation for Public Broadcasting is a private, non-profit corporation founded by Emmauel okoro   on the 14th February 2017 “springs TV” mission is to ensure universal access, over-the-air and online, to high-quality content and telecommunications services that are commercial free and free of charge.">
+  <meta name="author" content="Kuldeep Kumar">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-4 col-sm-offset-4 text-center'>
+        <h1>New user registration</h1>
+        <form <form method='post' action='/register'>
+          <input type='text' placeholder='Email' name='email' ng-model='user.email' class='form-control'>
+
+          <input type='password' placeholder='Password' name='password' ng-model='user.password' class='form-control'>
+          <input type='submit' class='btn btn-primary' value='Register'>
+        </form>
+        <a href='/admin'>Login with an existing account</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
